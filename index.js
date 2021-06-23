@@ -22,6 +22,8 @@ const productData = {
   price: 2599,
 };
 
+document.getElementById("preview-img").src = productData.preview;
+
 let changePreviewImage = (url) => {
   document.getElementById("preview-img").src = url;
 };
